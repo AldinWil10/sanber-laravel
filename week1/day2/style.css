@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://gblobscdn.gitbook.com/assets%2F-LiR2ZMOIaxmhLlPQhLa%2F-LsKO0ePPOrb2KQEd7Gq%2F-LsKOnZbYN8Zs5H89ODH%2Fpattern.jpg?alt=media&token=27a7b746-8252-45a5-8df2-b1b68fb8ceae);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+   text-align: center; 
+   background-color: white;
+}
+
+#article-list{
+    background-color: white;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: auto;
+}
+
+nav a{
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+footer{
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
