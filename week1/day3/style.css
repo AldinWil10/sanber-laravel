@@ -1,0 +1,4 @@
+nav input{
+    display: flex;
+    justify-content: flex-end;
+}
