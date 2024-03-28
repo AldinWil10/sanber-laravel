@@ -1,0 +1,4 @@
+terdapat tiga tipe data
+1. Number
+2. String
+3. Booelan
