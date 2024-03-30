@@ -80,8 +80,18 @@
             var terfilter = filter(inputanPencarian)
             printBarang(terfilter);
         })
+        document.addEventListener("DOMContentLoaded", function() {
+        var cartButton = document.getElementById("cart");
+        var addToCartButtons = document.querySelectorAll("#addCart");
 
-        
+        addToCartButtons.forEach(function(button) {
+            button.addEventListener("click", function() {
+                var currentCount = parseInt(cartButton.innerText.match(/\d+/)[0]);
+                var newCount = currentCount + 1;
+                cartButton.innerText = "( " + newCount + " )";
+            });
+        });
+    });
     </script>
 </body>
 </html>
